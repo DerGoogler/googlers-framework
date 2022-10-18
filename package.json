@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "googlers-framework",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -27,16 +27,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/<repo>"
+    "url": "https://github.com/DerGoogler/googlers-framework"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/<repo>/issues"
+    "url": "https://github.com/DerGoogler/googlers-framework/issues"
   },
-  "homepage": "https://github.com/<repo>",
-  "dependencies": {},
+  "homepage": "https://github.com/DerGoogler/googlers-framework",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.10",
+    "localized-strings": "^0.2.4",
+    "onsenui": "^2.12.6",
+    "react": "^18.2.0",
+    "react-onsenui": "^1.13.2",
+    "react-render-tools": "^1.0.1",
+    "usehooks-ts": "^2.9.1"
+  },
   "devDependencies": {
-    "@types/react": "^18.0.14",
+    "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.5",
     "rollup-plugin-postcss": "^4.0.2",
     "tsdx": "^0.14.1",
